@@ -61,6 +61,6 @@ install: $(TARGET)
 	chmod go+rx /usr/bin/$(TARGET)
 	
 check:
-	$(EXECUTEABLE)
+	./$(EXECUTEABLE)
 	echo "tests all pass!"
 
