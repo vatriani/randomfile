@@ -59,3 +59,7 @@ endif
 install: $(TARGET)
 	cp $(TARGET) /usr/bin/$(TARGET)
 	chmod go+rx /usr/bin/$(TARGET)
+	
+test:
+	$(EXECUTEABLE) && echo "tests all pass!"
+
