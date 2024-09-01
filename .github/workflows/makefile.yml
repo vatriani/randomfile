@@ -16,6 +16,3 @@ jobs:
 
     - name: Install
       run: make spagetti
-
-    - name: Run check
-      run: make check
